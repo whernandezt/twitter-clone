@@ -1,0 +1,16 @@
+:root{
+    --brand-color: #1da1f2;
+    --white-color: #ffffff;
+    --black-color: #1B1B1B;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}

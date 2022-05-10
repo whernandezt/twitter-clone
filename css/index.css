@@ -1,0 +1,67 @@
+body{
+    background-color: var(--black-color);
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main__logo {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    width: calc(100% - 60px);
+    font-size: 4.8rem;
+    color: var(--brand-color);
+}
+
+.main__tittle {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: calc(100% - 60px);
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+.main__sub-tittle {
+    margin-bottom: 20px;
+    width: calc(100% - 60px);
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: var(--white-color);
+}
+.button-container{
+    width: calc(100% - 60px);
+}
+
+.button-container__button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    width: 80%;
+    min-width: 250px;
+    max-width: 400px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.6rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.button-container__button span {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 2.0rem;
+    vertical-align: middle;
+}
+
+.button-container__button--google {
+    color: #3c4043;
+}
+
+.button-container__button--apple {
+    font-weight: 600;
+}
