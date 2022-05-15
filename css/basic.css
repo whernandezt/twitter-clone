@@ -1,8 +1,8 @@
 :root{
     --brand-color: #1da1f2;
     --white-color: #ffffff;
-    --black-color: #1B1B1B;
-    --dark-grey: #333;
+    --black-color: #000;/*#1B1B1B*/
+    --dark-grey: #333639;
     --light-grey: #949698;
 }
 
@@ -30,3 +30,4 @@ ul li, ul a {
     text-decoration: none;
     color: var(--light-grey);
 }
+

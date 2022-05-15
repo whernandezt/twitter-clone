@@ -1,0 +1,97 @@
+body{
+    background-color: var(--black-color);
+    color: var(--light-grey);
+    font-size: 1.4rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    padding: 0 16px;
+    margin: 0 auto;
+    height: 53px;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+
+.header__close{
+    flex-basis: 50%;
+}
+
+.header__logo{
+    font-size: 2.8rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.main__title {
+    font-size: 2.4rem;
+    color: var(--white-color);
+    margin: 20px 0;
+}
+
+.input-container{
+    margin: 11px 0;
+    padding: 8px;
+    border: 1px solid #333639;
+    border-radius: 5px;
+}
+
+.input-container span{
+    display: block;
+    font-size: 1.6rem;
+}
+
+.input-container__control{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    color: var(--white-color);
+}
+
+.input-container__control:focus-visible{
+    outline: transparent;
+}
+
+.fecha-nacimiento{
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-areas: "title title title"
+       "info info info"
+       "mes dia anio";
+}
+
+.fecha-nacimiento__title{
+    margin: 8px 0;
+    grid-area: title;
+    color: var(--white-color);
+}
+
+.fecha-nacimiento__info{
+    margin-bottom: 8px;
+    grid-area: info;
+}
+
+.footer{
+    position: absolute;
+    bottom: 23px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer button{
+    padding: 15px;
+    border-radius: 30px;
+    width: calc(100% - 64px);
+    max-width: 450px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
